@@ -1,0 +1,18 @@
+{
+  "name": "file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/styles.css -o styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

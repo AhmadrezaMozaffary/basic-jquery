@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Rendered TailwindCSS -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- jQuery Content Delivery Network (CDN) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+      integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Custom JQ/JS File -->
+    <script src="./app.js"></script>
+
+    <title>jQuery + Tailwind</title>
+  </head>
+  <body>
+    <!-- App Container -->
+    <section
+      class="w-screen h-screen bg-gray-300 flex justify-center items-center"
+    >
+      <!-- Cards Container -->
+      <div
+        id="cards-container"
+        class="w-full h-full sm:h-1/2 grid grid-cols-1 grid-rows-3 sm:grid-cols-3 sm:grid-rows-1 gap-2"
+      >
+        <!-- Cards - Card No.1 -->
+        <div
+          class="w-5/6 sm:w-2/3 h-full relative bg-gray-400 mx-auto rounded-2xl flex flex-col justify-center items-center shadow-xl hover:shadow-2xl"
+        >
+          <div
+            class="h5 absolute top-0 left-0 ml-2 mt-2 text-8xl font-bold text-slate-500 opacity-60"
+          >
+            1
+          </div>
+
+          <h2 class="uppercase font-bold text-2xl text-gray-600 text-shadow-lg">
+            Card's Header
+          </h2>
+
+          <p class="text-xl text-gray-500 text-center">Description</p>
+
+          <button
+            id="btn1"
+            class="bg-white py-1 px-3 my-5 rounded border border-px border-gray-400 hover:opacity-75 uppercase font-bold"
+          >
+            Click
+          </button>
+        </div>
+        <!-- Cards - Card No.2 -->
+        <div
+          class="w-5/6 sm:w-2/3 h-full relative bg-gray-400 mx-auto rounded-2xl flex flex-col justify-center items-center shadow-xl hover:shadow-2xl"
+        >
+          <div
+            class="h5 absolute top-0 left-0 ml-2 mt-2 text-8xl font-bold text-slate-500 opacity-60"
+          >
+            2
+          </div>
+
+          <h2 class="uppercase font-bold text-2xl text-gray-600 text-shadow-lg">
+            Card's Header
+          </h2>
+
+          <p class="text-xl text-gray-500 text-center">Description</p>
+
+          <button
+            id="btn2"
+            class="bg-white py-1 px-3 my-5 rounded border border-px border-gray-400 hover:opacity-75 uppercase font-bold"
+          >
+            Click
+          </button>
+        </div>
+        <!-- Cards - Card No.3 -->
+        <div
+          class="w-5/6 sm:w-2/3 h-full relative bg-gray-400 mx-auto rounded-2xl flex flex-col justify-center items-center shadow-xl hover:shadow-2xl"
+        >
+          <div
+            class="h5 absolute top-0 left-0 ml-2 mt-2 text-8xl font-bold text-slate-500 opacity-60"
+          >
+            3
+          </div>
+
+          <h2 class="uppercase font-bold text-2xl text-gray-600 text-shadow-lg">
+            Card's Header
+          </h2>
+
+          <p class="text-xl text-gray-500 text-center">Description</p>
+
+          <button
+            id="btn3"
+            class="bg-white py-1 px-3 my-5 rounded border border-px border-gray-400 hover:opacity-75 uppercase font-bold"
+          >
+            Click
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
