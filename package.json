@@ -10,7 +10,7 @@
     "tailwindcss": "^3.0.18"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/styles.css -o styles.css --watch"
+    "build-tw": "npx tailwindcss -i ./src/styles.css -o styles.css --watch"
   },
   "keywords": [],
   "author": "",
